@@ -1,3 +1,5 @@
+root 'articles#index'
+
 Rails.application.routes.draw do
   resources :articles
   # The priority is based upon order of creation: first created -> highest priority.

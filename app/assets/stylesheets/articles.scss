@@ -1,3 +1,20 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.custom-navbar{
+    background-color: #88ff77;
+}
+
+.custom-navbrand{
+    font-size: 1.5rem !important;
+    padding-top: 0.3rem !important;
+}
+
+.search-navbar{
+    margin-bottom: 0rem !important;
+}
+
+.search-button{
+    padding: 0.375rem 0.75rem !important;
+}

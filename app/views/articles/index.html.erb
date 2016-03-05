@@ -4,10 +4,31 @@
   <h1>Listing Articles</h1>
 <h3>My first Ruby on Rails Project</h3>
 
+ <div class="navbar navbar-default custom-navbar">
+    <div class ="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand custom-navbrand" href="/">Home</a>
+            <a class="navbar-brand custom-navbrand" href="#">Search</a>
+            <%= link_to 'New Article', new_article_path, class:"navbar-brand custom-navbrand"%>
+
+            <%= form_tag(articles_path, :method => "get", class: "form-inline pull-xs-right", id: "search-form") do %>
+                <%= text_field_tag :search, params[:search], class: "form-control", placeholder: "Search Articles" %>
+                <button class="btn btn-success-outline" type="submit">Search</button>
+            <% end %>
+            <%= yield %>
+<!-- <form class="form-inline pull-xs-right">
+    <input class="form-control" type="text" placeholder="Search">
+    <button class="btn btn-success-outline" type="submit">Search</button>
+  </form> -->
+
+        </div>
+    </div>
+</div>
+
 <%= render @articles %>
 
 <br>
 
-<%= link_to 'New Article', new_article_path %>
+
 
 </div>

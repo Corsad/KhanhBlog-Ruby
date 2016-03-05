@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](/image/walkthrough.gif)
+![Video Walkthrough](https://github.com/Corsad/KhanhBlog-Ruby/blob/master/image/gif/walkthrough.gif?raw=true)
 
 ## Notes
 

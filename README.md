@@ -20,12 +20,10 @@ The following **required** functionality is complete:
 * [x] User can submit a search term to find all posts by with titles containing the search term.
 
 The following **optional** features are implemented:
-* [ ] There is a "navbar" that is responsive to window size similar to http://v4-alpha.getbootstrap.com/examples/navbar/.
+* [x] There is a "navbar" that is responsive to window size similar to http://v4-alpha.getbootstrap.com/examples/navbar/.
 * [ ] User can see how many views a post has.
 * [ ] User can leave a comment on a post.
 * [ ] User can add "tags" to a post, and filter posts by tag.
-
-> HINT: if you are unsure how to implement the Search feature, you can Google how to implement a simple search form. For example, one of the sites you will find is [this](http://www.jorgecoca.com/buils-search-form-ruby-rails/)
 
 The following **additional** features are implemented:
 
@@ -35,13 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-> HINT: You can put a `walkthrough.gif` file in your project folder, add to git, and use the following syntax to embed it:
-> `![Video Walkthrough](walkthrough.gif)`
->
-
-![Video Walkthrough](/path/to/your/gif/file)
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+![Video Walkthrough](/image/walkthrough.gif)
 
 ## Notes
 
